@@ -7,9 +7,13 @@ The "QR Code Generator with URL Validation" project is a Python script that allo
 # Key Features:
 
 Input Validation: The script ensures that the provided URL is valid by checking its format using regex. This prevents the generation of QR codes with invalid URLs.
+
 QR Code Generation: Using the qrcode library, the script generates a QR code image representing the provided URL.
+
 Custom Filename: Users can specify a filename for the QR code image, allowing for customization and organization.
+
 Error Handling: If the provided URL or filename is invalid, the script provides appropriate error messages and prompts the user to input valid information.
+
 Flexibility: The script can be easily integrated into other projects or used as a standalone tool for generating QR codes with URLs.
 
 
